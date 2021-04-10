@@ -36,7 +36,7 @@ const MenuSection = (props) => {
             />
           );
         })}
-        <div className="section-price">¢4.000</div>
+        <div className="section-price">¢{props.price}</div>
       </div>
     </div>
   );
