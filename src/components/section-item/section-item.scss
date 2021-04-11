@@ -1,11 +1,32 @@
+.item-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .item-name {
   font-size: 1.2rem;
 }
 
 .item-description {
   font-size: 0.9rem;
+  font-family: "Branding Medium";
 }
 
 .section-price {
   font-size: 1.8rem;
+}
+
+//TODO: WE NEED TO REFACTOR SVGS to allow changing height and width
+.non-alcoholic-badge {
+  width: 12px !important;
+  height: 10px !important;
+}
+.frozen-badge {
+  width: 12px !important;
+  height: 12px !important;
+}
+.new-badge {
+  width: 12px !important;
+  height: 12px !important;
 }

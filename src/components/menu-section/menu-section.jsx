@@ -33,6 +33,7 @@ const MenuSection = (props) => {
               key={item.name}
               name={item.name}
               description={item.description}
+              badges={item.badges}
             />
           );
         })}

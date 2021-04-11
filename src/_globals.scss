@@ -1,10 +1,18 @@
 @font-face {
-  font-family: "Branding SF Black";
-  src: url(./fonts/branding-sf-black.ttf);
+  font-family: "Branding Bold";
+  src: url(./fonts/Branding-Bold.otf);
+}
+@font-face {
+  font-family: "Branding Medium";
+  src: url(./fonts/Branding-Medium.otf);
+}
+@font-face {
+  font-family: "Branding Thin";
+  src: url(./fonts/Branding-Thin.otf);
 }
 
 body {
-  font-family: "Branding SF Black";
+  font-family: "Branding Bold";
   margin: 0;
   padding: 0;
 }

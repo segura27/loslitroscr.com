@@ -8,7 +8,6 @@
 .menu {
   text-align: center;
   padding: 1rem;
-  margin-top: 1rem;
 
   background: linear-gradient(
     to right,
@@ -29,6 +28,33 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
+  }
+
+  .menu-legend {
+    display: flex;
+    width: calc(80% - 0.5rem);
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(253, 254, 255, 0.85);
+    padding: 0.25rem;
+    margin: 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.8) 0px 1px 10px 0px;
+  }
+  .menu-legend-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  //TODO: WE NEED TO REFACTOR SVGS to allow changing height and width
+  .menu-legend-item-logo {
+    width: 18px;
+    height: 18px;
+  }
+  .menu-legend-item-text {
+    font-size: 0.5rem;
+    padding-left: 0.25rem;
+    color: #6b6b6b;
   }
 }
